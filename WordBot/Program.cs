@@ -28,7 +28,7 @@ namespace Torchizm_Bot
             await _client.SetGameAsync("WordBot", "https://twitch.tv/torchizm/", ActivityType.Streaming);
             await _client.SetStatusAsync(UserStatus.Online);
 
-            await _client.LoginAsync(TokenType.Bot, "Nzk4MTk5MTg0OTgwNzA1MzAw.X_xi6w.PzRea4ALbQQtrX0fSbJsW1MQ764");
+            await _client.LoginAsync(TokenType.Bot, "YOUR TOKEN HERE");
 
             Cache.Initialize();
             await _client.StartAsync();
