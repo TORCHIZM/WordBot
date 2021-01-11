@@ -1,0 +1,2 @@
+# WordBot
+Discord minigame
